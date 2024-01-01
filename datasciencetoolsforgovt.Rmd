@@ -2,7 +2,9 @@
 title: "Data Science Tools for Government Workers"
 author: "Scott Hancock"
 date: "12/31/2023"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 This is a collection of resources I've put together over the course of my career in government as an analyst.
@@ -95,10 +97,10 @@ R is an open-source statistical programming language.
   * [Course](https://www.bradyneal.com/causal-inference-course) (from 2020)
   * [Book](https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf) (PDF)
   
-### Videos
+### Difference-in-Differences
 * Taylor Wright's Youtube Playlists
-  * DiD Reading Group
-  
+  * [DiD Reading Group](https://youtube.com/playlist?list=PLVObvb_htcuBt8mV9yNagt7hK9FL5KXeE&si=t1Q8RncIMNBgDybb)
+  * [Other DiD Seminars](https://www.youtube.com/playlist?list=PLVObvb_htcuBSnO_hDKePOhS7yUZbILN3)
 
 ### Causal inference in R
 When a causal inference resource uses R exclusively, it appears here.

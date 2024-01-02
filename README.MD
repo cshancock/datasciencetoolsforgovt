@@ -2,22 +2,11 @@
 title: "Data Science Tools for Government Workers"
 author: "Scott Hancock"
 date: "12/31/2023"
-output:
-  html_document: 
-    theme: readable
-    toc: true
-    toc_float: true
 ---
 
 This is a collection of resources I've put together over the course of my career in government as an analyst.
 
 The first two sections focus on the dominant data science languages, R and Python. These will contain many subsections on many similar topics, but will contain content specific to that language. The remaining sections are more generally applicable, or include resources for both languages.
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-
 
 ## Learning and Using R
 R is an open-source statistical programming language. 

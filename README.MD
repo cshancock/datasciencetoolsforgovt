@@ -84,6 +84,8 @@ R is an open-source statistical programming language.
 * [American Economic Association Continuing Education](https://www.aeaweb.org/conference/cont-ed/2020-webcasts)
   * [2017: Cross-Section Econometrics](https://www.aeaweb.org/conference/cont-ed/2017-webcasts) (AEA Webcast - Abadie, Angrist, Walters)
   * [2020: Mastering Mostly Harmless Econometrics](https://www.aeaweb.org/conference/cont-ed/2020-webcasts) (AEA Webcast - Abadie, Angrist, Walters)
+* [Introduction to Modern Statistics](https://openintro-ims.netlify.app/)
+* [Linear Model and Extensions](https://arxiv.org/pdf/2401.00649.pdf) - (PDF book by Ding)
 * [Free statistics e-books for download](https://www.r-statistics.com/2009/10/free-statistics-e-books-for-download/) (Blog post)
   
 ## Statistics in R
@@ -111,6 +113,7 @@ R is an open-source statistical programming language.
 * [Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) (World Bank handbook)
 * [Yale Applied Methods PhD Course](https://github.com/paulgp/applied-methods-phd)
   * [Lectures](https://www.youtube.com/playlist?list=PLWWcL1M3lLlojLTSVf2gGYQ_9TlPyPbiJ)
+* [A First Course in Causal Inference](https://arxiv.org/pdf/2305.18793.pdf) (PDF book by Ding)
 * [NBER 2021 Methods Lectures: Causal Inference Using Synthetic Controls and Regression Discontinuity Designs](https://www.youtube.com/watch?v=T2p9Wg650bY)
 * [NBER 2021 Methods Lecture, Rocio Titiunik, "Regression Discontinuity Designs: Foundations"](https://www.youtube.com/watch?v=ckZx0j1tYoY)
   

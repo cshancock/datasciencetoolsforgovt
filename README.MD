@@ -4,7 +4,7 @@ author: "Scott Hancock"
 date: 2024-01-05
 ---
 
-The latest version of this file can be found at its [GitHub repository](https://github.com/cshancock/datasciencetoolsforgovt/).
+The latest version of this file can be found at its [GitHub repository](https://github.com/cshancock/datasciencetoolsforgovt/) or downloaded [here](https://github.com/cshancock/datasciencetoolsforgovt/raw/main/datasciencetoolsforgovt.html) (right-click and "Save Link As...").
 
 This is a collection of resources I've put together over the course of my career in government as an analyst.
 

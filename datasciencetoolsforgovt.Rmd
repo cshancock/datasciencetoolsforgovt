@@ -218,7 +218,7 @@ These blog posts were interesting or motivational to me as I learned R and later
 * [Setting up RStudio Server, Shiny Server, and PostgreSQL](http://freerangestats.info/blog/2018/07/07/twitter-monitor) (Blog post) - Linux heavy, but was helpful for me when setting up a PostgreSQL server for a large study
 * [R in the data journalism workflow at FiveThirtyEight](https://flowingdata.com/2016/07/12/r-in-the-data-journalism-workflow-at-fivethirtyeight/) (Links to a video)
 * [How to Scrape Data from a JavaScript Website with R](https://velaco.github.io/how-to-scrape-data-from-javascript-websites-with-R/)
-   * [Scraping Javascript-rendered web content using R]("https://datascienceplus.com/scraping-javascript-rendered-web-content-using-r/")
+   * [Scraping Javascript-rendered web content using R](https://datascienceplus.com/scraping-javascript-rendered-web-content-using-r/)
 * [NYT-style urban heat island maps](https://www.katiejolly.io/blog/2019-08-28/nyt-urban-heat)
-* [Spatially Weighted Averages in R with sf]("https://datascience.blog.wzb.eu/2021/07/01/spatially-weighted-averages-in-r-with-sf/")
+* [Spatially Weighted Averages in R with sf](https://datascience.blog.wzb.eu/2021/07/01/spatially-weighted-averages-in-r-with-sf/)
 * [Analyzing 1.1 Billion NYC Taxi and Uber Trips, with a Vengeance](https://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/)

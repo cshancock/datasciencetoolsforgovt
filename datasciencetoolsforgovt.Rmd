@@ -60,6 +60,9 @@ R is an open-source statistical programming language.
 
 # Learning and using Python
 
+## Getting started
+* [Setting Python Development Environment with VScode and Docker](https://github.com/RamiKrispin/vscode-python)
+
 ## For economists/econometricians/statisticians
 * [Python for Economists](https://egallic.fr/Enseignement/Python/en/_main.pdf) (Gallic) (321 page PDF)
 * [Introduction to Python for Econometrics, Statistics, and Numerical Analysis](https://www.kevinsheppard.com/teaching/python/notes/) (Sheppard)
@@ -106,7 +109,7 @@ R is an open-source statistical programming language.
 # Causal inference
 
 ## Generally
-* [Causal Inferences in Statistics: A Primer](https://web.cs.ucla.edu/~kaoru/primer-complete-2019.pdf) (PDF) (Pearl, et. al.)
+* [Causal Inference in Statistics: A Primer](https://web.cs.ucla.edu/~kaoru/primer-complete-2019.pdf) (PDF) (Pearl, et. al.)
 * [Brady Neal's Causality Blog](https://www.bradyneal.com/) (Computer Science PhD student; machine learning focused)
   * [Course](https://www.bradyneal.com/causal-inference-course) (from 2020)
   * [Book](https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf) (PDF)
@@ -131,7 +134,7 @@ R is an open-source statistical programming language.
 ## Causal inference in R
 When a causal inference resource uses R exclusively, it appears here.
 
-* [Causal Inference in R](https://www.r-causal.org/) (book)
+* [Causal Inference in R](https://www.r-causal.org/) (Book; a work in progress)
 * [Research Design in the Social Sciences](https://book.declaredesign.org/) (book)
 * [Applied Causal Analysis (with R)](https://bookdown.org/paul/applied-causal-analysis/) (Book by Paul Bauer, intended to accompany a Univ of Mannheim course he teaches)
 
@@ -139,6 +142,7 @@ When a causal inference resource uses R exclusively, it appears here.
 When a causal inference resource uses Python exclusively, it appears here.
 
 * [Causal Inference for the Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html) (Matheus Facure book)
+  * Chapter 7, "Beyond Confounders", has probably the best discussion I've seen on which variables should and should not be part of a regression model.
 
 # Forecasting
 * [Forecasting: Principles and Practice](https://otexts.com/fpp3/) - Book by Hyndman and Athanasopoulos; includes embedded videos
@@ -152,6 +156,8 @@ When a causal inference resource uses Python exclusively, it appears here.
   * [StanfordOnline: Statistical Learning with R](https://www.edx.org/learn/statistics/stanford-university-statistical-learning) (EdX)
     * "This is an introductory-level course in supervised learning, with a focus on regression and classification methods."
 * [Machine Learning and Econometrics](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) - (Athey and Imbens, 2018 AEA Continuing Education Webcasts)
+* [Machine Learning & Causal Inference: A Short Course](https://www.youtube.com/playlist?list=PLxq_lXOUlvQAoWZEqhRqHNezS30lI49G-)
+  * Youtube playlist of 19 half-hour lectures by Susan Athey and others
 
 ## Machine Learning in R
 * [An Introduction to Statistical Learning with Applications in R](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html) (Free book)
@@ -170,6 +176,13 @@ When a causal inference resource uses Python exclusively, it appears here.
 # Geospatial 
 * [US Census Cartographic Boundary Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html)
   * Consider the [tidycensus package](https://walker-data.com/tidycensus/) before using this
+
+## Washington State
+* [Univ of Washington: Geospatial Data Resources Guide: Washington State Geodata Resources](https://guides.lib.uw.edu/c.php?g=341497&p=8904074)
+* [Washington State Parcel Database](https://depts.washington.edu/wagis/projects/parcels/index.php)
+  * An incredible resource, but the page appears to be no longer maintained
+* [Washington Master Addressing Services (WAMAS)](https://watech.wa.gov/washington-master-addressing-services-wamas-0)
+* [Washington Geospatial Open Data](https://geo.wa.gov/)
 
 ## Geospatial in R
 * [Geocomputation with R](https://r.geocompx.org/index.html) (Book by Lovelace, Nowosad, Muenchow)
@@ -210,6 +223,17 @@ When a causal inference resource uses Python exclusively, it appears here.
 * [BERT - Basic Excel R Toolkit](https://bert-toolkit.com/) - Run R commands in Excel
 * [rOpenSci](https://ropensci.org/packages/)
 * [The rOpenSci Blog](https://ropensci.org/blog/)
+
+## Washington State
+* [Washington State Auditor's Office - Financial Intelligence Tool](https://portal.sao.wa.gov/FIT/explore)
+* [Washington State Fiscal Information](https://fiscal.wa.gov/)
+* [Legislative Information Center: Documents and Publications](https://leg.wa.gov/LIC/Pages/DocumentinAlphabeticalOrder.aspx)
+  * [A Citizen's Guide to the Washington State Capital Budget](https://leg.wa.gov/LIC/Documents/2021%20Citizens%20Guide%20to%20Capital%20Budget.pdf)
+  * [A Citizen's Guide to the Washington State Budget](https://leg.wa.gov/Senate/Committees/WM/Documents/Citizen%27s%20guides/2023%20Citizens%20Guide%20to%20Operating%20Budget.pdf)
+  * [A Citizen's Guide to Washington State K-12 Finance](https://leg.wa.gov/Senate/Committees/WM/Documents/Citizen%27s%20guides/K12%20Booklet_2022.pdf)
+  * [A Legislative Guide to Washington's Tax Structure](https://leg.wa.gov/Senate/Committees/WM/Documents/Citizen%27s%20guides/2022%20Guide%20to%20Washington%20State%27s%20Tax%20Structure.pdf)
+* [OFM: A Guide to the Washington State Budget Process](https://ofm.wa.gov/sites/default/files/public/publications/WaStateBudgetProcessGuide.pdf)
+* 
 
 # Interesting blog posts
 These blog posts were interesting or motivational to me as I learned R and later Python.

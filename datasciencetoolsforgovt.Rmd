@@ -11,7 +11,7 @@ output:
 
 The latest version of this file can be found at its [GitHub repository](https://github.com/cshancock/datasciencetoolsforgovt/) or downloaded [here](https://github.com/cshancock/datasciencetoolsforgovt/raw/main/datasciencetoolsforgovt.html) (right-click and "Save Link As...").
 
-This is a collection of resources I've put together over the course of my career in government as an analyst.
+This is a collection of resources I've put together over the course of my career in government as an analyst. **Bold text** indicates that I've used it and found it very valuable; non-bold text means I perused it, thought it was interesting and worth saving for later.
 
 The first two sections focus on the dominant data science languages, R and Python. These will contain many subsections on many similar topics, but will contain content specific to that language. The remaining sections are more generally applicable, or include resources for both languages.
 
@@ -22,11 +22,11 @@ R is an open-source statistical programming language.
 * [Installing R on Windows, Mac OS X, and Ubuntu](https://www.datacamp.com/tutorial/installing-R-windows-mac-ubuntu) (DataCamp)
   * Note that "Step 1" and "Step 2" are mutually-exclusive
 * [Quick R](https://www.statmethods.net/)
-* [CRAN Task Views](https://cran.r-project.org/web/views/) (List of CRAN packages by subject/task area)
+* [**CRAN Task Views**](https://cran.r-project.org/web/views/) (List of CRAN packages by subject/task area)
 * [Big Book of R](https://www.bigbookofr.com/) (Oscar Baruffa's collection of R resources)
 
 ## Digital textbooks and general reference
-* [R for Data Science](https://r4ds.had.co.nz/)
+* [**R for Data Science**](https://r4ds.had.co.nz/)
 * [R: Notes for Professionals](https://books.goalkicker.com/RBook/)
 * [Advanced R](http://adv-r.had.co.nz/Introduction.html)
 * [R for Journalists](https://learn.r-journalism.com/en/)
@@ -38,25 +38,25 @@ R is an open-source statistical programming language.
 * [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) (Free Datacamp course)
 * [R Exercises](https://www.r-exercises.com/) (Over 1000 exercises)
 * [swirl](https://swirlstats.com/) - an R package that teaches you how to use R, in the R console
-* [Posit Webinars and Videos](https://posit.co/resources/videos/)
+* [**Posit Webinars and Videos**](https://posit.co/resources/videos/)
 * [Data Science in a Box](https://datasciencebox.org/) (Data science course "in a box" using R, with learner and educator materials)
 
 
 ## Example code and cheatsheets
-* [Cookbook for R](http://www.cookbook-r.com/) Solutions to common tasks and problems in analyzing data.
-* [RStudio's cheat sheet repository](https://posit.co/resources/cheatsheets/)
+* [**Cookbook for R**](http://www.cookbook-r.com/) Solutions to common tasks and problems in analyzing data.
+* [**RStudio's cheat sheet repository**](https://posit.co/resources/cheatsheets/)
 
 
 ## Importing data
-* [How to connect R with Access database in 64-bit Windows?](https://stackoverflow.com/questions/13070706/how-to-connect-r-with-access-database-in-64-bit-window/52096456#52096456)
+* [**How to connect R with Access database in 64-bit Windows?**](https://stackoverflow.com/questions/13070706/how-to-connect-r-with-access-database-in-64-bit-window/52096456#52096456)
   * The solution from "Fiddler on the Roofies" seems best.
-* [Using the tidyverse with Databases - Part I](https://sciencificity-blog.netlify.app/posts/2020-12-12-using-the-tidyverse-with-databases/)
+* [**Using the tidyverse with Databases - Part I**](https://sciencificity-blog.netlify.app/posts/2020-12-12-using-the-tidyverse-with-databases/)
 
 ## Data manipulation
-* [Data Wrangling](https://dcl-wrangle.stanford.edu/) (Altman, Behrman, Wickham)
+* [**Data Wrangling**](https://dcl-wrangle.stanford.edu/) (Altman, Behrman, Wickham)
 * [An Introduction to Data Cleaning with R](https://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf) (2013 discussion paper published by Statistics Netherlands)
 * [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/) (Book by van Buuren, author of the {mice} package)
-* [Demystifying Regular Expressions in R](https://blog.rsquaredacademy.com/regular-expression-in-r/)
+* [**Demystifying Regular Expressions in R**](https://blog.rsquaredacademy.com/regular-expression-in-r/)
 
 # Learning and using Python
 
@@ -64,6 +64,8 @@ R is an open-source statistical programming language.
 * [Setting Python Development Environment with VScode and Docker](https://github.com/RamiKrispin/vscode-python)
 
 ## For economists/econometricians/statisticians
+* [**Coding for Economists**](https://aeturrell.github.io/coding-for-economists/intro.html)
+  * [Python for Data Science](https://aeturrell.github.io/python4DS/welcome.html) is by the same author
 * [Python for Economists](https://egallic.fr/Enseignement/Python/en/_main.pdf) (Gallic) (321 page PDF)
 * [Introduction to Python for Econometrics, Statistics, and Numerical Analysis](https://www.kevinsheppard.com/teaching/python/notes/) (Sheppard)
   * [Book](https://www.kevinsheppard.com/files/teaching/python/notes/python_introduction_2021.pdf) (PDF)
@@ -78,7 +80,7 @@ R is an open-source statistical programming language.
 * [From Data to Viz](https://www.data-to-viz.com/) - leads you to the most appropriate graph for your data. Code examples in Python, R, React, D3.js
 
 ## Data visualization in R
-* [The R Graph Gallery](https://r-graph-gallery.com/) (Website; usually the first place I go)
+* [**The R Graph Gallery**](https://r-graph-gallery.com/) (Website; usually the first place I go)
 * [Tufte in R](http://motioninsocial.com/tufte/) 
 * [Data Visualization in R with ggplot2](https://rpubs.com/altaf/ggplot) (Course website, Univ College London)
 * [A Curated List of Awesome ggplot2 Tutorials, Packages, Etc.](https://github.com/erikgahner/awesome-ggplot2) (Website)
@@ -115,15 +117,18 @@ R is an open-source statistical programming language.
   * [Book](https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf) (PDF)
 * [An introduction to causal inference](https://fabiandablander.com/r/Causal-Inference.html) 
 * [Causal Inference: What If?](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) (2020 book by Hernán, Robins) (Includes code in R, Python, SAS, Stata, and other languages)
-* [Causal Inference: The Mixtape](https://mixtape.scunning.com/) (Book by Cunningham, code in R, Python, Stata)
-* [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/) (Book by Huntington-Klein)
-* [Nick Huntington-Klein's Youtube Page](https://www.youtube.com/@NickHuntingtonKlein)
+* [**Causal Inference: The Mixtape**](https://mixtape.scunning.com/) (Book by Cunningham, code in R, Python, Stata)
+* [**The Effect: An Introduction to Research Design and Causality**](https://theeffectbook.net/) (Book by Huntington-Klein)
+  * One of the gentler introductions
+  * [Nick Huntington-Klein's Youtube Page](https://www.youtube.com/@NickHuntingtonKlein)
 * [Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) (World Bank handbook)
 * [Yale Applied Methods PhD Course](https://github.com/paulgp/applied-methods-phd)
-  * [Lectures](https://www.youtube.com/playlist?list=PLWWcL1M3lLlojLTSVf2gGYQ_9TlPyPbiJ)
+  * [**Lectures**](https://www.youtube.com/playlist?list=PLWWcL1M3lLlojLTSVf2gGYQ_9TlPyPbiJ)
+    * I recommend only after familiarizing yourself with the topics
 * [A First Course in Causal Inference](https://arxiv.org/pdf/2305.18793.pdf) (PDF book by Ding)
-* [NBER 2021 Methods Lectures: Causal Inference Using Synthetic Controls and Regression Discontinuity Designs](https://www.youtube.com/watch?v=T2p9Wg650bY)
-* [NBER 2021 Methods Lecture, Rocio Titiunik, "Regression Discontinuity Designs: Foundations"](https://www.youtube.com/watch?v=ckZx0j1tYoY)
+* NBER 2021 Methods Lectures: 
+  * [Causal Inference Using Synthetic Controls and Regression Discontinuity Designs](https://www.youtube.com/watch?v=T2p9Wg650bY)
+  * [Rocio Titiunik, "Regression Discontinuity Designs: Foundations"](https://www.youtube.com/watch?v=ckZx0j1tYoY)
   
 ### Difference-in-Differences
 * Taylor Wright's Youtube Playlists
@@ -134,14 +139,15 @@ R is an open-source statistical programming language.
 ## Causal inference in R
 When a causal inference resource uses R exclusively, it appears here.
 
-* [Causal Inference in R](https://www.r-causal.org/) (Book; a work in progress)
+* [**Causal Inference in R**](https://www.r-causal.org/) (D'Agonstino-McGowan and Barrett
+  * A work in progress, but the "Asking Causal Questions" section is excellently done
 * [Research Design in the Social Sciences](https://book.declaredesign.org/) (book)
 * [Applied Causal Analysis (with R)](https://bookdown.org/paul/applied-causal-analysis/) (Book by Paul Bauer, intended to accompany a Univ of Mannheim course he teaches)
 
 ## Causal inference in Python
 When a causal inference resource uses Python exclusively, it appears here.
 
-* [Causal Inference for the Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html) (Matheus Facure book)
+* [**Causal Inference for the Brave and True**](https://matheusfacure.github.io/python-causality-handbook/landing-page.html) (Matheus Facure book)
   * Chapter 7, "Beyond Confounders", has probably the best discussion I've seen on which variables should and should not be part of a regression model.
 
 # Forecasting
@@ -179,13 +185,13 @@ When a causal inference resource uses Python exclusively, it appears here.
 
 ## Washington State
 * [Univ of Washington: Geospatial Data Resources Guide: Washington State Geodata Resources](https://guides.lib.uw.edu/c.php?g=341497&p=8904074)
-* [Washington State Parcel Database](https://depts.washington.edu/wagis/projects/parcels/index.php)
+* [**Washington State Parcel Database**](https://depts.washington.edu/wagis/projects/parcels/index.php)
   * An incredible resource, but the page appears to be no longer maintained
-* [Washington Master Addressing Services (WAMAS)](https://watech.wa.gov/washington-master-addressing-services-wamas-0)
+* [**Washington Master Addressing Services (WAMAS)**](https://watech.wa.gov/washington-master-addressing-services-wamas-0)
 * [Washington Geospatial Open Data](https://geo.wa.gov/)
 
 ## Geospatial in R
-* [Geocomputation with R](https://r.geocompx.org/index.html) (Book by Lovelace, Nowosad, Muenchow)
+* [**Geocomputation with R**](https://r.geocompx.org/index.html) (Book by Lovelace, Nowosad, Muenchow)
 * [Spatial Data Science With Applications in  R](https://r-spatial.org/book/) (Book by Pebesma (author of {sf}) and Bivand)
 * [Introduction to Visualizing Spatial Data in R](https://github.com/Robinlovelace/Creating-maps-in-R) (Website by Lovelace)
 * [Introduction to Spatial Analysis in R](https://jamiecmontgomery.github.io/spatial-analysis-R/) (Tutorials for the {sf} and {raster} packages)
@@ -195,14 +201,15 @@ When a causal inference resource uses Python exclusively, it appears here.
 ## Using Census Data in R 
 * [Analyzing US Census Data: Methods, Maps, and Models with R](https://walker-data.com/census-r/) (Book by Kyle Walker, creator of the {tidycensus} package)
 * [A Guide to Working with US Census Data in R](https://rconsortium.github.io/censusguide/) (R Consortium)
-* [University of Michigan Institute for Social Research webinar: Accessing and Analyzing US Census Data in R with Dr. Kyle Walker](https://www.youtube.com/watch?v=PnFJfuJ83NI) (3 hours)
-* [University of Michigan Institute for Social Research webinar: Spatial Analysis of US Census Data in R with Dr. Kyle Walker](https://www.youtube.com/watch?v=GqC1HjAKui4) (3 hours)
+* University of Michigan Institute for Social Research webinars:
+  * [Accessing and Analyzing US Census Data in R with Dr. Kyle Walker](https://www.youtube.com/watch?v=PnFJfuJ83NI) (3 hours)
+  * [Spatial Analysis of US Census Data in R with Dr. Kyle Walker](https://www.youtube.com/watch?v=GqC1HjAKui4) (3 hours)
 
 # Project Management and Reproducible Research
 
 ## Project Management and Reproducible Research in R
-* [RMarkdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) (Book by Xie, Allaire, Grolemund)
-* [Happy Git and Github for the useR](https://happygitwithr.com/) (Book by Bryan, for STAT 545 course at Univ of British Columbia)
+* [**RMarkdown: The Definitive Guide**](https://bookdown.org/yihui/rmarkdown/) (Book by Xie, Allaire, Grolemund)
+* [**Happy Git and Github for the useR**](https://happygitwithr.com/) (Book by Bryan, for STAT 545 course at Univ of British Columbia)
 * [A crash course in reproducible research in R](https://t-redactyl.io/blog/2016/10/a-crash-course-in-reproducible-research-in-r.html) (Blog post, 2016)
 * [Reproducible Research Using RMarkdown and Git through Rstudio](https://rpubs.com/marschmi/105639) (Tutorial, 2015)
 * [Google's R Style Guide](https://google.github.io/styleguide/Rguide.html)
@@ -227,7 +234,7 @@ When a causal inference resource uses Python exclusively, it appears here.
 ## Washington State
 * [Washington State Auditor's Office - Financial Intelligence Tool](https://portal.sao.wa.gov/FIT/explore)
 * [Washington State Fiscal Information](https://fiscal.wa.gov/)
-* [Legislative Information Center: Documents and Publications](https://leg.wa.gov/LIC/Pages/DocumentinAlphabeticalOrder.aspx)
+* [**Legislative Information Center: Documents and Publications**](https://leg.wa.gov/LIC/Pages/DocumentinAlphabeticalOrder.aspx)
   * [A Citizen's Guide to the Washington State Capital Budget](https://leg.wa.gov/LIC/Documents/2021%20Citizens%20Guide%20to%20Capital%20Budget.pdf)
   * [A Citizen's Guide to the Washington State Budget](https://leg.wa.gov/Senate/Committees/WM/Documents/Citizen%27s%20guides/2023%20Citizens%20Guide%20to%20Operating%20Budget.pdf)
   * [A Citizen's Guide to Washington State K-12 Finance](https://leg.wa.gov/Senate/Committees/WM/Documents/Citizen%27s%20guides/K12%20Booklet_2022.pdf)

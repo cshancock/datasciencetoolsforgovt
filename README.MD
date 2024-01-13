@@ -2,11 +2,6 @@
 title: "Data Science Tools for Government Workers"
 author: "Scott Hancock"
 date: "2024-01-12"
-output:
-  html_document: 
-    theme: readable
-    toc: true
-    toc_float: true
 ---
 
 The latest version of this file can be found at its [GitHub repository](https://github.com/cshancock/datasciencetoolsforgovt/) or downloaded [here](https://github.com/cshancock/datasciencetoolsforgovt/raw/main/datasciencetoolsforgovt.html) (right-click and "Save Link As...").

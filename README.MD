@@ -1,7 +1,7 @@
 ---
 title: "Data Science Tools for Government Workers"
 author: "Scott Hancock"
-date: "2024-01-12"
+date: "2024-01-19"
 ---
 
 The latest version of this file can be found at its [GitHub repository](https://github.com/cshancock/datasciencetoolsforgovt/) or downloaded [here](https://github.com/cshancock/datasciencetoolsforgovt/raw/main/datasciencetoolsforgovt.html) (right-click and "Save Link As...").
@@ -58,7 +58,7 @@ R is an open-source statistical programming language.
 ## Getting started
 * [Setting Python Development Environment with VScode and Docker](https://github.com/RamiKrispin/vscode-python)
 
-## For economists/econometricians/statisticians
+## Books
 * [**Coding for Economists**](https://aeturrell.github.io/coding-for-economists/intro.html)
   * [Python for Data Science](https://aeturrell.github.io/python4DS/welcome.html) is by the same author
 * [Python for Economists](https://egallic.fr/Enseignement/Python/en/_main.pdf) (Gallic) (321 page PDF)
@@ -66,6 +66,7 @@ R is an open-source statistical programming language.
   * [Book](https://www.kevinsheppard.com/files/teaching/python/notes/python_introduction_2021.pdf) (PDF)
   * [Course](https://www.kevinsheppard.com/teaching/python/course/)
 * [Computational and Inferential Thinking: The Foundations of Data Science](https://inferentialthinking.com/chapters/intro.html) (Book by Adhikari, DeNero, Wagner developed for UC Berkeley course Data 8: Foundations of Data Science)
+* [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html)
   
 # Data visualization
 
@@ -124,6 +125,7 @@ R is an open-source statistical programming language.
 * NBER 2021 Methods Lectures: 
   * [Causal Inference Using Synthetic Controls and Regression Discontinuity Designs](https://www.youtube.com/watch?v=T2p9Wg650bY)
   * [Rocio Titiunik, "Regression Discontinuity Designs: Foundations"](https://www.youtube.com/watch?v=ckZx0j1tYoY)
+  * [Matteo Courthoud's "Awesome Causal Inference"](https://github.com/matteocourthoud/awesome-causal-inference)
   
 ### Difference-in-Differences
 * Taylor Wright's Youtube Playlists
@@ -134,7 +136,7 @@ R is an open-source statistical programming language.
 ## Causal inference in R
 When a causal inference resource uses R exclusively, it appears here.
 
-* [**Causal Inference in R**](https://www.r-causal.org/) (D'Agonstino-McGowan and Barrett
+* [**Causal Inference in R**](https://www.r-causal.org/) (D'Agonstino-McGowan and Barrett)
   * A work in progress, but the "Asking Causal Questions" section is excellently done
 * [Research Design in the Social Sciences](https://book.declaredesign.org/) (book)
 * [Applied Causal Analysis (with R)](https://bookdown.org/paul/applied-causal-analysis/) (Book by Paul Bauer, intended to accompany a Univ of Mannheim course he teaches)
@@ -235,7 +237,7 @@ When a causal inference resource uses Python exclusively, it appears here.
   * [A Citizen's Guide to Washington State K-12 Finance](https://leg.wa.gov/Senate/Committees/WM/Documents/Citizen%27s%20guides/K12%20Booklet_2022.pdf)
   * [A Legislative Guide to Washington's Tax Structure](https://leg.wa.gov/Senate/Committees/WM/Documents/Citizen%27s%20guides/2022%20Guide%20to%20Washington%20State%27s%20Tax%20Structure.pdf)
 * [OFM: A Guide to the Washington State Budget Process](https://ofm.wa.gov/sites/default/files/public/publications/WaStateBudgetProcessGuide.pdf)
-* 
+
 
 # Interesting blog posts
 These blog posts were interesting or motivational to me as I learned R and later Python.

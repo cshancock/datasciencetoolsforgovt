@@ -3,10 +3,12 @@ title: "Data Science Tools for Government Workers"
 author: "Scott Hancock"
 date: "`r Sys.Date()`"
 output:
-  html_document: 
+  pdf_document:
+    toc: yes
+  html_document:
     theme: readable
-    toc: true
-    toc_float: true
+    toc: yes
+    toc_float: yes
 ---
 
 The latest version of this file can be found at its [GitHub repository](https://github.com/cshancock/datasciencetoolsforgovt/) or downloaded [here](https://github.com/cshancock/datasciencetoolsforgovt/raw/main/datasciencetoolsforgovt.html) (right-click and "Save Link As...").
@@ -32,6 +34,8 @@ R is an open-source statistical programming language.
 * [R for Journalists](https://learn.r-journalism.com/en/)
 * [Univ of Cincinatti Business Analytics R Programming Guide](https://uc-r.github.io/basics)
 * [An Introduction to R](https://intro2r.com/) - Book written by ecologists
+* [Tidy Finance with R](https://www.tidy-finance.org/r/)
+* [List of open source books about R](https://www.peretaberner.eu/list-of-open-source-books-about-r/)
 
 
 ## Training and Exercises
@@ -60,8 +64,9 @@ R is an open-source statistical programming language.
 
 # Learning and using Python
 
-## Getting started
+## Configuring IDEs
 * [Setting Python Development Environment with VScode and Docker](https://github.com/RamiKrispin/vscode-python)
+* [How to configure VS Code for AI, ML and MLOps development in Python](https://fmind.medium.com/how-to-configure-vs-code-for-ai-ml-and-mlops-development-in-python-%EF%B8%8F%EF%B8%8F-8582d8c6ea54)
 
 ## Books
 * [**Coding for Economists**](https://aeturrell.github.io/coding-for-economists/intro.html)
@@ -72,6 +77,7 @@ R is an open-source statistical programming language.
   * [Course](https://www.kevinsheppard.com/teaching/python/course/)
 * [Computational and Inferential Thinking: The Foundations of Data Science](https://inferentialthinking.com/chapters/intro.html) (Book by Adhikari, DeNero, Wagner developed for UC Berkeley course Data 8: Foundations of Data Science)
 * [Python Programming for Data Science](https://www.tomasbeuzen.com/python-programming-for-data-science/README.html)
+* [Tidy Finance with Python](https://www.tidy-finance.org/python/)
   
 # Data visualization
 
@@ -98,6 +104,9 @@ R is an open-source statistical programming language.
 * [Introduction to Modern Statistics](https://openintro-ims.netlify.app/)
 * [Linear Model and Extensions](https://arxiv.org/pdf/2401.00649.pdf) - (PDF book by Ding)
 * [Free statistics e-books for download](https://www.r-statistics.com/2009/10/free-statistics-e-books-for-download/) (Blog post)
+
+## Research Design
+* [Research Design in the Social Sciences: Declaration, Diagnosis, and Redesign](https://book.declaredesign.org/) (Book by Blair, Coppock, Humphries)
   
 ## Statistics in R
 * [Statistical Inference via Data Science: A ModernDive into R and the Tidyverse](https://moderndive.com/) (Book by Chester Ismay and Albert Y. Kim)
@@ -105,6 +114,7 @@ R is an open-source statistical programming language.
 * [Learning Statistics with R: A tutorial for psychology students and other beginners](https://learningstatisticswithr.com/book/) (Book by Danielle Navarro)
 * [The 9 concepts and formulas in probability that every data scientist should know](https://statsandr.com/blog/the-9-concepts-and-formulas-in-probability-that-every-data-scientist-should-know/) (Blog post)
 * [ANOVA in R](https://statsandr.com/blog/anova-in-r/) (Blog post)
+* [Advanced Data Analysis from an Elementary Point of View](https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/) (Book by Shalizi)
 
 ## Misc.
 * [The Elements of Statistical Learning](https://hastie.su.domains/ElemStatLearn/) (2009 book by Hastie, Tibshirani and Friedman)
@@ -113,7 +123,7 @@ R is an open-source statistical programming language.
 
 ## Generally
 * [Causal Inference in Statistics: A Primer](https://web.cs.ucla.edu/~kaoru/primer-complete-2019.pdf) (PDF) (Pearl, et. al.)
-* [Brady Neal's Causality Blog](https://www.bradyneal.com/) (Computer Science PhD student; machine learning focused)
+* [Brady Neal's Causality Blog](https://www.bradyneal.com/) (Computer Science PhD student; machine learning and "interventionist" focused)
   * [Course](https://www.bradyneal.com/causal-inference-course) (from 2020)
   * [Book](https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf) (PDF)
 * [An introduction to causal inference](https://fabiandablander.com/r/Causal-Inference.html) 
@@ -130,7 +140,8 @@ R is an open-source statistical programming language.
 * NBER 2021 Methods Lectures: 
   * [Causal Inference Using Synthetic Controls and Regression Discontinuity Designs](https://www.youtube.com/watch?v=T2p9Wg650bY)
   * [Rocio Titiunik, "Regression Discontinuity Designs: Foundations"](https://www.youtube.com/watch?v=ckZx0j1tYoY)
-  * [Matteo Courthoud's "Awesome Causal Inference"](https://github.com/matteocourthoud/awesome-causal-inference)
+* [Matteo Courthoud's "Awesome Causal Inference"](https://github.com/matteocourthoud/awesome-causal-inference)
+* [Literature on Recent Advances in Applied Micro Methods](https://christinecai.github.io/PublicGoods/applied_micro_methods_dark_mode.pdf) (PDF; summaries and curation by Christine Cai)
   
 ### Difference-in-Differences
 * Taylor Wright's Youtube Playlists
@@ -145,12 +156,16 @@ When a causal inference resource uses R exclusively, it appears here.
   * A work in progress, but the "Asking Causal Questions" section is excellently done
 * [Research Design in the Social Sciences](https://book.declaredesign.org/) (book)
 * [Applied Causal Analysis (with R)](https://bookdown.org/paul/applied-causal-analysis/) (Book by Paul Bauer, intended to accompany a Univ of Mannheim course he teaches)
+* [Causal Analysis: Impact Evaluation and Causal Machine Learning with Applications in R](https://mitpress.ublish.com/ebook/causal-analysis-impact-evaluation-and-causal-machine-learning-with-applications-in-r-preview/12759/i) (Martin Huber)
 
 ## Causal inference in Python
 When a causal inference resource uses Python exclusively, it appears here.
 
 * [**Causal Inference for the Brave and True**](https://matheusfacure.github.io/python-causality-handbook/landing-page.html) (Matheus Facure book)
   * Chapter 7, "Beyond Confounders", has probably the best discussion I've seen on which variables should and should not be part of a regression model.
+  
+## Causal inference and machine learning
+* [Applied Causal Inference Powered by ML and AI](https://www.causalml-book.org/) (Book by V. Chernozhukov, C. Hansen, N. Kallus, M. Spindler, V. Syrgkanis)
 
 # Forecasting
 * [Forecasting: Principles and Practice](https://otexts.com/fpp3/) - Book by Hyndman and Athanasopoulos; includes embedded videos
@@ -166,6 +181,9 @@ When a causal inference resource uses Python exclusively, it appears here.
 * [Machine Learning and Econometrics](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) - (Athey and Imbens, 2018 AEA Continuing Education Webcasts)
 * [Machine Learning & Causal Inference: A Short Course](https://www.youtube.com/playlist?list=PLxq_lXOUlvQAoWZEqhRqHNezS30lI49G-)
   * Youtube playlist of 19 half-hour lectures by Susan Athey and others
+* [Applied Machine Learning with Tabular Data](https://aml4td.org/) (Book by Kuhn & Johnson)
+* [Erasmus School of Economics: FinEML online seminar series](https://www.eur.nl/en/ese/department-econometrics/events/fineml-online-seminars) 
+
 
 ## Machine Learning in R
 * [An Introduction to Statistical Learning with Applications in R](https://hastie.su.domains/ISLR2/ISLRv2_corrected_June_2023.pdf.download.html) (Free book)
@@ -206,8 +224,15 @@ When a causal inference resource uses Python exclusively, it appears here.
 * University of Michigan Institute for Social Research webinars:
   * [Accessing and Analyzing US Census Data in R with Dr. Kyle Walker](https://www.youtube.com/watch?v=PnFJfuJ83NI) (3 hours)
   * [Spatial Analysis of US Census Data in R with Dr. Kyle Walker](https://www.youtube.com/watch?v=GqC1HjAKui4) (3 hours)
+  
+## Other
+* [Lincoln Land Institute: Fiscally Standardized Cities](https://www.lincolninst.edu/research-data/data-toolkits/fiscally-standardized-cities)
 
 # Project Management and Reproducible Research
+
+## Project and Data Management
+* [Data Management in Large-Scale Education Research](https://datamgmtinedresearch.com/) (Book by Lewis)
+* [Veridical Data Science](https://vdsbook.com/) (Book by Yu and Barter)
 
 ## Project Management and Reproducible Research in R
 * [**RMarkdown: The Definitive Guide**](https://bookdown.org/yihui/rmarkdown/) (Book by Xie, Allaire, Grolemund)
@@ -232,6 +257,8 @@ When a causal inference resource uses Python exclusively, it appears here.
 * [BERT - Basic Excel R Toolkit](https://bert-toolkit.com/) - Run R commands in Excel
 * [rOpenSci](https://ropensci.org/packages/)
 * [The rOpenSci Blog](https://ropensci.org/blog/)
+* [PyMC: Learn PyMC & Bayesian modeling](https://www.pymc.io/projects/docs/en/stable/learn.html) (List of books and lessons for PyMC, a Bayesian modeling library in Python)
+* [Feature Engineering A-Z](https://feaz-book.com/) (Book by Hvitfeldt, using R and Python)
 
 ## Washington State
 * [Washington State Auditor's Office - Financial Intelligence Tool](https://portal.sao.wa.gov/FIT/explore)

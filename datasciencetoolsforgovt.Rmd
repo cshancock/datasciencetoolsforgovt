@@ -3,12 +3,12 @@ title: "Data Science Tools for Government Workers"
 author: "Scott Hancock"
 date: "`r Sys.Date()`"
 output:
-  pdf_document:
-    toc: yes
   html_document:
     theme: readable
     toc: yes
     toc_float: yes
+  pdf_document:
+    toc: yes
 ---
 
 The latest version of this file can be found at its [GitHub repository](https://github.com/cshancock/datasciencetoolsforgovt/) or downloaded [here](https://github.com/cshancock/datasciencetoolsforgovt/raw/main/datasciencetoolsforgovt.html) (right-click and "Save Link As...").
@@ -142,11 +142,25 @@ R is an open-source statistical programming language.
   * [Rocio Titiunik, "Regression Discontinuity Designs: Foundations"](https://www.youtube.com/watch?v=ckZx0j1tYoY)
 * [Matteo Courthoud's "Awesome Causal Inference"](https://github.com/matteocourthoud/awesome-causal-inference)
 * [Literature on Recent Advances in Applied Micro Methods](https://christinecai.github.io/PublicGoods/applied_micro_methods_dark_mode.pdf) (PDF; summaries and curation by Christine Cai)
+* [A Thematic Quarter on Causality](https://quarter-on-causality.github.io/) 
+  * [Introduction slides](https://quarter-on-causality.github.io/tools/intro_causal_inference_elise_dumas.pdf)
+  * [Identification and the causal hierarchy](https://quarter-on-causality.github.io/tools/Autrans_Tuturalial_Identification.pdf) (48-page tutorial)
+* [Duke University STA 640: Causal Inference](https://www2.stat.duke.edu/~fl35/CausalInferenceClass.html) (Course by Fan Li)
+* [Duke University STA 790: Bayesian Causal Inference](https://www2.stat.duke.edu/~fl35/BayesianCausalInference.html) (Course by Fan Li
+  
   
 ### Difference-in-Differences
 * Taylor Wright's Youtube Playlists
   * [DiD Reading Group](https://youtube.com/playlist?list=PLVObvb_htcuBt8mV9yNagt7hK9FL5KXeE&si=t1Q8RncIMNBgDybb)
   * [Other DiD Seminars](https://www.youtube.com/playlist?list=PLVObvb_htcuBSnO_hDKePOhS7yUZbILN3)
+* [Synthetic Difference-in-Differences](https://www.aeaweb.org/articles?id=10.1257/aer.20190159) (AER paper)
+* [Jonathan Roth's DiD Resources](https://www.jonathandroth.com/did-resources/)
+* [Asjad Naqvi's DiD Resources](https://asjadnaqvi.github.io/DiD/)
+  
+### Regression Discontinuity Designs
+* [RD Packages](https://rdpackages.github.io/) (Curated list of packages for R, Python, and Stata)
+* [A Practical Introduction to Regression Discontinuity Designs: Foundations](https://arxiv.org/abs/1911.09511)
+* [A Practical Introduction to Regression Discontinuity Designs: Extensions](https://arxiv.org/abs/2301.08958) 
 
 
 ## Causal inference in R
@@ -178,11 +192,13 @@ When a causal inference resource uses Python exclusively, it appears here.
   * [Lecture videos](https://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
   * [StanfordOnline: Statistical Learning with R](https://www.edx.org/learn/statistics/stanford-university-statistical-learning) (EdX)
     * "This is an introductory-level course in supervised learning, with a focus on regression and classification methods."
+* [The Elements of Statistical Learning](https://www.sas.upenn.edu/~fdiebold/NoHesitations/BookAdvanced.pdf) (PDF copy of second edition)
 * [Machine Learning and Econometrics](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) - (Athey and Imbens, 2018 AEA Continuing Education Webcasts)
 * [Machine Learning & Causal Inference: A Short Course](https://www.youtube.com/playlist?list=PLxq_lXOUlvQAoWZEqhRqHNezS30lI49G-)
   * Youtube playlist of 19 half-hour lectures by Susan Athey and others
 * [Applied Machine Learning with Tabular Data](https://aml4td.org/) (Book by Kuhn & Johnson)
 * [Erasmus School of Economics: FinEML online seminar series](https://www.eur.nl/en/ese/department-econometrics/events/fineml-online-seminars) 
+* [Models Demystified](https://m-clark.github.io/book-of-models/) (Book in progress)
 
 
 ## Machine Learning in R
@@ -190,9 +206,11 @@ When a causal inference resource uses Python exclusively, it appears here.
 * [Hands-On Machine Learning with R](https://bradleyboehmke.github.io/HOML/)  
 * [TensorFlow for R](https://tensorflow.rstudio.com/)
 * [Getting Started with Deep Learning in R](https://posit.co/blog/getting-started-with-deep-learning-in-r/)
+* [mlr3: Machine Learning in R](https://mlr3.mlr-org.com/)
 
 ## Machine Learning in Python
 * [An Introduction to Statistical Learning with Applications in Python](https://hastie.su.domains/ISLP/ISLP_website.pdf.download.html)
+* [Understanding Deep Learning](https://udlbook.github.io/udlbook/) (Book by Prince)
 
 # Data Mining
 * [Mining of Massive Datasets](http://www.mmds.org/) (Book by Leskovec, Rajaraman, Ullman)
@@ -217,6 +235,7 @@ When a causal inference resource uses Python exclusively, it appears here.
 * [Introduction to Spatial Analysis in R](https://jamiecmontgomery.github.io/spatial-analysis-R/) (Tutorials for the {sf} and {raster} packages)
 * [Mapping in R](https://map-rfun.library.duke.edu/) - Duke Univ. resource page for a workshop
 * [How to Create State and County Maps Easily in R](https://urban-institute.medium.com/how-to-create-state-and-county-maps-easily-in-r-577d29300bb2) (Blog post, Urban Institute)
+* [Iterative 'mapping' in R](https://walker-data.com/posts/iterative-mapping/) (Blog post; good example of the map() function)
 
 ## Using Census Data in R 
 * [Analyzing US Census Data: Methods, Maps, and Models with R](https://walker-data.com/census-r/) (Book by Kyle Walker, creator of the {tidycensus} package)
@@ -233,6 +252,7 @@ When a causal inference resource uses Python exclusively, it appears here.
 ## Project and Data Management
 * [Data Management in Large-Scale Education Research](https://datamgmtinedresearch.com/) (Book by Lewis)
 * [Veridical Data Science](https://vdsbook.com/) (Book by Yu and Barter)
+* [The Guide To Git I Never Had](https://medium.com/@jake.page91/the-guide-to-git-i-never-had-a89048d4703a)
 
 ## Project Management and Reproducible Research in R
 * [**RMarkdown: The Definitive Guide**](https://bookdown.org/yihui/rmarkdown/) (Book by Xie, Allaire, Grolemund)
@@ -259,6 +279,9 @@ When a causal inference resource uses Python exclusively, it appears here.
 * [The rOpenSci Blog](https://ropensci.org/blog/)
 * [PyMC: Learn PyMC & Bayesian modeling](https://www.pymc.io/projects/docs/en/stable/learn.html) (List of books and lessons for PyMC, a Bayesian modeling library in Python)
 * [Feature Engineering A-Z](https://feaz-book.com/) (Book by Hvitfeldt, using R and Python)
+* [Handbook of Regression Modeling in People Analytics: With Examples in R, Python and Julia](https://peopleanalytics-regression-book.org/) (Book by McNulty)
+* [Peter Hull's Metrics Notes](https://about.peterhull.net/metrix)
+* [Jonathan Roth's Brown Univ. Econ 1630, Mathematical Econometrics I](https://github.com/jonathandroth/Econ1630_Github)
 
 ## Washington State
 * [Washington State Auditor's Office - Financial Intelligence Tool](https://portal.sao.wa.gov/FIT/explore)
@@ -282,3 +305,5 @@ These blog posts were interesting or motivational to me as I learned R and later
 * [NYT-style urban heat island maps](https://www.katiejolly.io/blog/2019-08-28/nyt-urban-heat)
 * [Spatially Weighted Averages in R with sf](https://datascience.blog.wzb.eu/2021/07/01/spatially-weighted-averages-in-r-with-sf/)
 * [Analyzing 1.1 Billion NYC Taxi and Uber Trips, with a Vengeance](https://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/)
+* [Prediction Intervals using Conformalized Quantile Regression](https://vincentwtrs.github.io/2024-03-06-conformal_prediction_prediction_intervals/)
+* [A Survey of Causal Inference Applications at Netflix](https://netflixtechblog.com/a-survey-of-causal-inference-applications-at-netflix-b62d25175e6f)
